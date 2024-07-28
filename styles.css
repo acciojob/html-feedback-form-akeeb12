@@ -1,2 +1,59 @@
-
 /* Your CSS Code here. */
+body
+{
+	font-family:serif;
+	margin:20px;
+}
+
+form
+{
+	
+	max-width:500px;
+	margin:0 auto;
+	padding:20px;
+	border:1px solid #ccc;
+	border-radius:1em;
+    background-color: #ff4d4d;
+	
+}
+label
+{
+	display:block;
+	margin-bottom:1em;
+	font-weight:bold;
+}
+input[type = "text"], input[type = "url"], input[type="color"] input[type = "range"]
+{
+	width:100%;
+	padding:8px;
+	margin-bottom:16px;
+	border:1px solid #ccc;
+	border-radius: 6px;
+}
+input [type = "range"]
+{
+	width: 100;
+}
+button
+{
+	background-color: #4CAF50;
+	color:white;
+	padding: 10px 20px;
+	border:none;
+	border-radius:4px;
+	cursor:pointer;
+	font-size:16px
+}
+button:hover
+{
+	background-color: #45a049
+}
+h1
+{
+	background-color:pink;
+	border-radius:10px;
+	width:220px;
+	
+}
+
+
